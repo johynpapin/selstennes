@@ -8,6 +8,24 @@
                 "e"
             ]
         },
+		{
+			"regex": "A",
+			"translations": [
+				"E"
+			]
+		},
+		{
+			"regex": "E",
+			"translations": [
+				"A"
+			]
+		},
+		{
+			"regex": "I",
+			"translations": [
+				""
+			]
+		},
     	{
             "regex": "à",
             "translations": [

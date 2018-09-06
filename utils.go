@@ -16,6 +16,22 @@ type TranslateOperation struct {
 
 // TranslateToSelstennes translate a text (message) to the Selstennes (perfect (yellow)) language.
 func TranslateToSelstennes(message string) string {
+	msg := strings.Split(message, "\"")
+
+	var result []string
+
+	for index, section := range msg {
+		if index%2 == 0 {
+			result = append(result, TranslateSectionToSelstennes(section))
+		} else {
+			result = append(result, section)
+		}
+	}
+
+	return strings.Join(result, "\"")
+}
+
+func TranslateSectionToSelstennes(message string) string {
 	config, err := getConfig()
 	if err != nil {
 		log.WithField("error", err).Fatal("error getting the config")
