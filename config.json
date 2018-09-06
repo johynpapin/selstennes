@@ -1,0 +1,66 @@
+{
+	"shortname": "s",
+	"name": "selstennes",
+	"rules": [
+        {
+            "regex": "a",
+            "translations": [
+                "e"
+            ]
+        },
+    	{
+            "regex": "à",
+            "translations": [
+                "è"
+            ]
+        },
+    	{
+            "regex": "À",
+            "translations": [
+                "È"
+            ]
+        },
+        {
+            "regex": "e",
+            "translations": [
+                "a"
+            ]
+        },
+     	{
+            "regex": "é",
+            "translations": [
+                "á"
+            ]
+        },
+    	{
+            "regex": "ê",
+            "translations": [
+                "â"
+            ]
+        },
+    	{
+            "regex": "è",
+            "translations": [
+                "à"
+            ]
+        },
+    	{
+            "regex": "È",
+            "translations": [
+                "À"
+            ]
+        },
+    	{
+            "regex": "É",
+            "translations": [
+                "Á"
+            ]
+        },
+    	{
+            "regex": "i",
+            "translations": [
+                ""
+            ]
+        }
+    ]
+}
